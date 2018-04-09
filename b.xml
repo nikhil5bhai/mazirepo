@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="sample-suite" verbose='1'>
+ <test name="sample-test1">
+  <classes>
+   <class name="feb07.AbcTest">
+   </class>
+  </classes>
+ </test>
+ 
+ <test name="sample-test2">
+  <classes>
+   <class name="feb07.AbcTest">
+   </class>
+  </classes>
+ </test>
+ 
+</suite>

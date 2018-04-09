@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParamTest" verbose='1'>
+
+ <test name="run">
+  <parameter name="url" value="http://www.google.com" />
+  <parameter name="searchText" value="vin" />
+
+  <classes>
+   <class name="jan17.ParamTest">
+   </class>
+  </classes>
+ </test>
+</suite>

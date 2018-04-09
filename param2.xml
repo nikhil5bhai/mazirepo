@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParamTest" verbose='1'>
+
+ <test name="run">
+  <parameter name="username" value="myname" />
+  <parameter name="pwd" value="mypassword" />
+
+  <classes>
+   <class name="jan17.ParamTest2">
+   </class>
+  </classes>
+ </test>
+</suite>
